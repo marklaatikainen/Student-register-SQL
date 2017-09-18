@@ -10,15 +10,15 @@ import java.util.Date;
 
 
 public class StudentRegister {
-	  private Connection connect = null;
-    private Statement statement = null;
-    private PreparedStatement pst = null;
-    private ResultSet resultSet = null;
+	private Connection connect = null;
+	private Statement statement = null;
+    	private PreparedStatement pst = null;
+    	private ResultSet resultSet = null;
     
     
 
 	public static void main(String[] args) {
-    StudentRegister streg = new StudentRegister();
+    	StudentRegister streg = new StudentRegister();
 		try {
 		 	streg.select();
 		} catch (Exception e) {
